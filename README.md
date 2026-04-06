@@ -157,6 +157,7 @@ MIT License
 
 ## 👤 Author
 
-Shiva Kumar
+1. Shiva Kumar
+2. Nithin
 
 ---

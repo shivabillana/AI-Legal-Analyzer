@@ -1,4 +1,3 @@
-```markdown
 # 📄 AI Contract & Legal Document Analyzer
 
 An AI-powered application that analyzes legal documents, extracts key clauses, evaluates risks, and allows users to interactively query contracts using natural language.
@@ -46,46 +45,6 @@ An AI-powered application that analyzes legal documents, extracts key clauses, e
 
 ---
 
-## 🏗️ Architecture
-
-```
-
-Upload Document
-↓
-Text Extraction
-↓
-Chunking
-↓
-Embeddings (Sentence Transformers)
-↓
-ChromaDB (Vector Storage)
-↓
--
-
-| Classification Layer          |
-| - Clause Type Detection       |
----------------------------------
-
-```
-  ↓
-```
-
-Retrieval (RAG)
-↓
-LLM (OpenRouter)
-↓
-
-* Risk Score
-* Explanation
-* ELI5
-* Citations
-  ↓
-  Streamlit UI
-
-```
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend:** Streamlit
@@ -97,10 +56,8 @@ LLM (OpenRouter)
 
 ---
 
+
 ## 📂 Project Structure
-
-```
-
 ├── app.py
 ├── documentloader.py
 ├── chunking.py
@@ -113,8 +70,6 @@ LLM (OpenRouter)
 ├── test.py
 ├── .env
 └── requirements.txt
-
-````
 
 ---
 
